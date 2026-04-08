@@ -1,5 +1,4 @@
 
-
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
@@ -30,7 +29,7 @@ local Logo = Instance.new("ImageLabel")
 Logo.Size = UDim2.new(0, 70, 0, 70)
 Logo.Position = UDim2.new(0.5, -35, 0, -45)
 Logo.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Logo.Image = "rbxassetid://114578517500917" 
+Logo.Image = "rbxassetid://139801811784607" 
 Logo.Parent = MainFrame
 
 local LogoCorner = Instance.new("UICorner")
@@ -103,9 +102,9 @@ local function RunLoading()
         ---------------------------------------------------------
         
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "RedzRoblox",
-    Text = "Welcome to RedzRoblox scripts!",
-    Icon = "rbxassetid://114578517500917", 
+    Title = "IRIA HUB",
+    Text = "Welcome to iria hub",
+    Icon = "rbxassetid://139801811784607", 
     Duration = 5 
 })
 
